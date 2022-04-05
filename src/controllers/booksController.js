@@ -24,6 +24,13 @@ class BookController {
       });
   };
 
+  static listBooksByPublisher = (req, res) => {
+    const publisher = req.query.publisher;
+    books.find({ publisher: publisher }, {}, (_err, books) => {
+      res.status(200).send(books);
+    });
+  };
+
   static createBook = (req, res) => {
     let book = new books(req.body);
 
