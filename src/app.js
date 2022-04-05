@@ -1,6 +1,6 @@
 import express from "express";
-
 import db from "./config/dbConnect.js";
+import books from "./models/Book.js";
 
 db.on("error", console.log.bind(console, "Connection error!"));
 db.once("open", () => {
@@ -16,7 +16,9 @@ app.get("/", (_req, res) => {
 });
 
 app.get("/books", (_req, res) => {
-  res.status(200).json(books);
+  books.find((_err, books) => {
+    res.status(200).json(books);
+  });
 });
 
 app.get("/books/:id", (req, res) => {
