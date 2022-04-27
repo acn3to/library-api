@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
+import "dotenv/config";
 
-mongoose.connect(
-  "mongodb+srv://acn3to:Ne152127.@library-api.dykgx.mongodb.net/library"
-);
+mongoose.connect(process.env.DB_URI);
 
 let db = mongoose.connection;
 
