@@ -16,10 +16,10 @@
 npm install
 ```
 
-## Run tests
+## Usage in development mode
 
 ```sh
-npm run test
+npm run dev
 ```
 
 ## Author
