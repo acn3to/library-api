@@ -8,7 +8,13 @@
   </a>
 </p>
 
-### 🏠 [Homepage](https://github.com/acn3to/library-api#readme)
+>The server side (backend) of a library management system with CRUD operations.
+
+## Built with
+
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
+* [Mongoose](https://mongoosejs.com/)
 
 ## Install
 
