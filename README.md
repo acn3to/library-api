@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to library-api 👋</h1>
+<h1 align="center">Library API 📙</h1>
 <p>
   <a href="https://www.npmjs.com/package/library-api" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/library-api.svg">
@@ -32,7 +32,6 @@ npm run dev
 
 👤 **Arnaldo Neto**
 
-* Website: https://acn3to.github.io/acn3to-portfolio/
 * Github: [@acn3to](https://github.com/acn3to)
 * LinkedIn: [@arnaldo-n3to](https://linkedin.com/in/arnaldo-n3to)
 
